@@ -1,7 +1,7 @@
 struct Student {
   String Name;
   int Age;
-  char Grade;
+  float Grade;
 };
 
 void setup() {
@@ -12,7 +12,7 @@ void setup() {
 
   s1.Name = "August";
   s1.Age = 27;
-  s1.Grade = 'A';
+  s1.Grade = 4.5;
     
     Serial.println(s1.Name);
     Serial.println(s1.Age);
