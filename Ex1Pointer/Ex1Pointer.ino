@@ -5,7 +5,7 @@ void setup() {
   Serial.begin(115200);
   delay(2000);
   Serial.println("The value of what p points to is: ");
-  Serial.print(*p);
+  Serial.println(*p);
   Serial.println("The address of what p points to is: ");
   Serial.print((uintptr_t)p, HEX);
 }
