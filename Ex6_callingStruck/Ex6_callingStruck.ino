@@ -1,6 +1,3 @@
-#include <Arduino.h>
-
-
 // Define a Car struct with make and year
 struct Car {
   String make;

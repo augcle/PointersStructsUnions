@@ -1,4 +1,4 @@
-union Dataform {
+union Dataform {  // Defines Union
   int intnumb;
   float decnum;
   char letter;

@@ -1,6 +1,6 @@
-float temperature = 36.6;
-float *p = &temperature;
-float **pp = &p;
+float temperature = 36.6;  // Defines temperature to a random values
+float *p = &temperature;   // Defines first pointer to the temperature
+float **pp = &p;           // Defines the second pointer to the first pointer
 
 void setup() {
   Serial.begin(115200);

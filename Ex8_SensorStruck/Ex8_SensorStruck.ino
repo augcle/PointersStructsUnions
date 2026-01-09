@@ -1,6 +1,3 @@
-#include <Arduino.h>
-
-
 // Define a Sensor struct with a name field
 struct Sensor {
 
